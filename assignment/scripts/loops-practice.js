@@ -67,12 +67,11 @@ for (let mops=5; mops>=0; mops--){
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
-// let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
-console.log('Some stars:');
+console.log('Some stars using for:');
 
-let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 for (let i=0; i<1; i++) {
   console.log(stars);
 }
@@ -83,11 +82,35 @@ console.log('---- 3. While loop ----');
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
 
+console.log( '3.a. Answer Below')
+console.log( 'You must remove the "//" in order to see it function.')
+// let i=0;
+// while (i<1)
+// {
+//   console.log(stars);
+//   i++;
+// }
 
-// while (stars<)
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 
+console.log( '3.b. Answer Below')
+console.log( 'You must remove the "//" in order to see it function.')
+// let i=0;
+// while(i<=5)
+// {
+//   console.log(i);
+//   i++;
+// }
+
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+console.log( '3.c. Answer Below')
+let i=10;
+while(i>=5)
+{
+  console.log(i);
+  i--
+};
