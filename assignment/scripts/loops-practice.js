@@ -51,12 +51,13 @@ console.log(evenNumbers);
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
+
 console.log( 'changes needed to make happen are shown below with result:');
 console.log( 'for (let i=2; i<=10; i+=2) {');
 console.log( 'console.log(1)  }');
-for (let i=2; i<=10; i+=2)[
+for (let i=2; i<=10; i+=2){
   console.log(i)
-]
+}
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
@@ -70,10 +71,10 @@ console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
-console.log('Some stars using for:');
+console.log('Some stars using for of:');
 
-for (let i=0; i<1; i++) {
-  console.log(stars);
+for ( each of stars ){
+  console.log(each)
 }
 
 // 3. While loops  
@@ -83,34 +84,43 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 
 console.log( '3.a. Answer Below')
-console.log( 'You must remove the "//" in order to see it function.')
-// let i=0;
-// while (i<1)
-// {
-//   console.log(stars);
-//   i++;
-// }
+
+let i=0;
+while (i<1)
+{
+  console.log(stars);
+  i++;
+}
+
+console.log( stars[0]);
+
+while(stars<stars.length)
+{
+  console.log(stars)
+  stars++
+}
+
 
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 
 console.log( '3.b. Answer Below')
-console.log( 'You must remove the "//" in order to see it function.')
-// let i=0;
-// while(i<=5)
-// {
-//   console.log(i);
-//   i++;
-// }
+
+let x=0;
+while(x<=5)
+{
+  console.log(x);
+  x++;
+}
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 
 console.log( '3.c. Answer Below')
-let i=10;
-while(i>=5)
+let u=10;
+while(u>=5)
 {
-  console.log(i);
-  i--
+  console.log(u);
+  u--
 };
